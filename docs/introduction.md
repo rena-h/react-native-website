@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import con
 
 <div className="content-banner">
   <p>
-    React Nativeの旅のスタート地点へようこそ！環境構築手順を探している場合は、この<a href="environment-setup">ページ</a>へどうぞ。
+    React Nativeの最初の一歩へようこそ！環境構築手順を探している場合は、この<a href="environment-setup">ページ</a>へどうぞ。
     このページにはドキュメント、ネイティブコンポーネント、Reactなどの紹介がありますので、読み進めてみてください。
   </p>
   <img className="content-banner-img" src="/docs/assets/p_android-ios-devices.svg" alt=" " />
@@ -47,15 +47,15 @@ const YourApp = () => {
 export default YourApp;
 ```
 
-上記は Snack Player です。これは Expo が作成した、React Native プロジェクトを埋め込んで実行し、Android や iOS などのプラットフォームでどのようにレンダリングされるかを共有するための便利なツールです。コードはライブで反映されるので、ブラウザで直接修正することができます。ではさっそく、上の"Try editing me!"と書かれているテキストを"Hello, world!"に変更してみてください。
+上記は Snack Player です。これは Expo が作成した、React Native プロジェクトを埋め込んで実行し、Android や iOS などのプラットフォームでどのようにレンダリングされるかを共有するための便利なツールです。コードはライブで反映されるので、ブラウザで直接修正することができます。試しに、上の "Try editing me!" と書かれているテキストを "Hello, world!" に変更してみてください。
 
-> 必要に応じて、ローカルの開発環境を設定したい場合は、[ローカルマシン上での環境設定ガイド](environment-setup)を参照して、`App.js` ファイルにコード例を貼り付けてください。(あなたがウェブ開発者であれば、モバイルブラウザのテスト用にローカル環境を設定しているかもしれません)
+> 必要に応じて、ローカルの開発環境を設定したい場合は、[ローカルマシン上での環境設定ガイド](environment-setup)を参照して、`App.js` ファイルにコード例を貼り付けてください。(あなたがウェブ開発者であれば、すでにモバイルブラウザのテスト用にローカル環境を設定しているかもしれません。)
 
 ## 関数コンポーネントとクラスコンポーネント
 
-React では、クラスか関数のどちらかを使ってコンポーネントを作ることができます。元々、ステートを持てるのはクラスコンポーネントだけでした。しかし、React の Hooks API が導入されてからは、関数コンポーネントにステートなどを追加することができるようになりました。
+React では、クラスか関数のどちらかを使ってコンポーネントを作ることができます。元々、ステートを持てるのはクラスコンポーネントだけでした。しかし、React のフック API が導入されてからは、関数コンポーネントにステートなどを追加することができるようになりました。
 
-[Hooks は React Native 0.59 で導入され](/blog/2019/03/12/releasing-react-native-059)、また未来を見据えた React コンポーネントの書き方なので、この紹介文は関数コンポーネントの例を使って書いています。リンクを切り換えることで、クラスコンポーネントでの書き方を見ることもできます。
+[フックは React Native 0.59 で導入され](/blog/2019/03/12/releasing-react-native-059)、また未来を見据えた React コンポーネントの書き方なので、この紹介文は関数コンポーネントの例を使って書いています。リンクを切り換えることで、クラスコンポーネントでの書き方を見ることもできます。
 
 <Tabs groupId="syntax" defaultValue={constants.defaultSyntax} values={constants.syntax}>
 <TabItem value="functional">
@@ -137,4 +137,4 @@ export default HelloWorldApp;
 
 ---
 
-このガイドがどのように動作するのかわかったと思います。では次の[ネイティブコンポーネント](intro-react-native-components.md)で React Native の基礎を知ることにしましょう。
+このガイドの読み方について紹介したところで、次は React Native の基礎である、[ネイティブコンポーネント](intro-react-native-components.md)について学びましょう。
